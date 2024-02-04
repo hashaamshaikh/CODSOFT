@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* navbar */
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-img {
+    font-size: 20px;
+    font-weight: 900;
+    color: blueviolet;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+.nav-items ul li a {
+    list-style: none;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items ul li a:hover {
+    color: blueviolet;
+    transition: 0.3s ease;
+}
+
+
+/* section of introduction */
+
+#intro {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    margin: 0 3%;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-text h1 {
+    font-size: 50px;
+}
+
+.sec-text p {
+    line-height: 30px;
+    margin-top: 10px;
+    color: grey;
+}
+
+.sec-text ul {
+    color: grey;
+}
+
+.icons {
+    display: flex;
+    margin: 20px 0;
+}
+
+.icons a {
+    margin: 8px;
+}
+
+.icons a img {
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.buttons a button {
+    padding: 5px 30px;
+    width: auto;
+    line-height: 25px;
+    font-size: medium;
+    border-radius: 4px;
+    background-color: blueviolet;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.buttons a button:hover {
+    transform: scale(1.05);
+}
+
+
+/* experience section */
+#experience {
+    display: flex;
+}
+
+.exp-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.exp-icons a img {
+    width: 500px;
+    height: 250px;
+}
+
+/* proficency section */
+#proficiency {
+    display: flex;
+}
+
+.level {
+    margin: 30px 0px;
+}
+
+.level h3 {
+    margin-top: 40px;
+}
+
+.loading {
+    width: 95%;
+    height: 18px;
+    border-radius: 15px;
+    background-color: lightgray;
+    margin-top: 30px;
+}
+
+.loading-level-1 {
+    width: 80%;
+    height: 18px;
+    border-radius: 8px;
+    background-color: blueviolet;
+}
+
+.loading-level-2 {
+    width: 50%;
+    height: 18px;
+    border-radius: 8px;
+    background-color: blueviolet;
+}
+
+.loading-level-3 {
+    width: 70%;
+    height: 18px;
+    border-radius: 8px;
+    background-color: blueviolet;
+}
+
+
+/* open source projects */
+#project {
+    margin-top: 40px;
+}
+
+.project-container {
+    margin: 0 3%;
+}
+
+.heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    width: 48%;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.pro-card-line {
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.j-sp-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.more-proj-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.more-proj-btn a button {
+    padding: 5px 30px;
+    width: auto;
+    line-height: 25px;
+    font-size: medium;
+    border-radius: 4px;
+    background-color: blueviolet;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.more-proj-btn a button:hover {
+    transform: scale(1.05);
+}
+
+/* big project section */
+#big-project {
+    display: flex;
+}
+
+.big-project-container {
+    margin: 3%;
+    line-height: 60px;
+}
+
+.big-project-container h1 {
+    font-size: 50px;
+}
+
+.big-proj-img {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.big-proj-img img {
+    height: 200px;
+    width: 200px;
+}
+
+
+/* Achievement and certification section */
+#certificate {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 3%;
+}
+
+.certificate-heading {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.certificate-heading h1 {
+    font-size: 50px;
+}
+
+.certificate-heading p {
+    color: gray;
+    margin-top: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.indi-card {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.indi-card p {
+    color: gray;
+}
+
+.indi-card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.indi-card img {
+    width: 200px;
+    height: auto;
+    margin: 10px 0px;
+}
+
+.achi-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.achi-links a {
+    text-decoration: none;
+    color: black;
+    margin: 10px 0px;
+    transition: transform 0.3s ease;
+}
+
+.achi-links a:hover {
+    color: blueviolet;
+    transform: scale(1.05);
+}
+
+/* blog section */
+#blog {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 3%;
+}
+
+.blog-card {
+    position: relative;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    height: 230px;
+    overflow: hidden;
+    color: black;
+    transition: color 1s ease;
+}
+
+.blog-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    background-color: blueviolet;
+    border-radius: 50%;
+    z-index: -1;
+    transition: width 1s ease, height 1s ease, top 1s ease, right 1s ease;
+}
+
+.blog-card:hover::before {
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+}
+
+.blog-card:hover {
+    color: white;
+    z-index: 1;
+}
+
+.blog-card h2 {
+    margin-bottom: 20px;
+}
+
+.blog-card p {
+    margin-bottom: 0;
+}
+
+/* talk section */
+#certificate {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 3%;
+}
+
+.certificate-heading {
+
+    margin-bottom: 30px;
+}
+
+.talk-card {
+    position: relative;
+    text-align: left;
+    padding: 40px 20px;
+    height: 230px;
+    overflow: hidden;
+    color: blueviolet;
+}
+
+.talk-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, blueviolet 40%, transparent 40%);
+    z-index: -1;
+    transform: scaleY(1);
+    transform-origin: top;
+}
+
+.talk-card h2 {
+    margin-bottom: 40px;
+    color: white;
+}
+
+.talk-card p {
+    margin: 10px 0px;
+    color: blueviolet;
+}
+
+.achi-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.achi-links a {
+    text-decoration: none;
+}
+
+.achi-links button {
+    padding: 8px 16px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.achi-links button:hover {
+    background-color: #8a2be2;
+}
+
+
+/* reachout me section  */
+.reach-out-img img {
+    border: 10px solid blueviolet;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
